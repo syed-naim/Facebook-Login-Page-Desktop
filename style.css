@@ -4,9 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    background: #f2f4f7;
+    background-color: #f2f4f7 !important;
 }
 .container{
     padding: 72px 0 112px;
     
+}
+.container .brand-name{
+    font-size: 4rem;
+    color: #0866ff;
+    font-weight: 700;
+}
+.container .note{
+    color: #1c1e21;
+    font-size: 1.75rem;
 }
