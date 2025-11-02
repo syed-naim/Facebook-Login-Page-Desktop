@@ -1,21 +1,76 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
-body{
-    background-color: #f2f4f7 !important;
+.container-fluid {
+   background-color: #f2f4f7 !important;
 }
-.container{
-    padding: 72px 0 112px;
-    
+.container {
+   padding: 72px 0 112px;
 }
-.container .brand-name{
-    font-size: 4rem;
-    color: #0866ff;
-    font-weight: 700;
+.container .brand-name {
+   font-size: 4rem;
+   color: #0866ff;
+   font-weight: 700;
 }
-.container .note{
-    color: #1c1e21;
-    font-size: 1.75rem;
+.container .note {
+   color: #1c1e21;
+   font-size: 1.75rem;
+   line-height: 1.1;
+}
+.container .form-content input {
+   padding: 15px 13px;
+   font-size: 1rem;
+   font-weight: 600;
+   box-shadow: none;
+}
+.container .form-content .login {
+   padding: 8px 0;
+   font-weight: 600;
+   font-size: 1.25rem;
+}
+.container .form-content .creat {
+   width: 55%;
+   padding: 10px 0;
+   font-weight: bold;
+   font-size: 1rem;
+   color: #fff;
+   background-color: #42b72a;
+   border: 0;
+}
+.container .form-content .creat:active {
+   background-color: #31ae19;
+   color: #fff;
+}
+.container .forgotten-password a {
+   text-decoration: none;
+   font-size: 1rem;
+}
+.container .forgotten-password:hover {
+   text-decoration: underline;
+   color: #0d6efd;
+}
+.container .creat-page a {
+   text-decoration: none;
+   color: #111;
+   font-size: 1rem;
+}
+.container .creat-child {
+   font-weight: 600;
+}
+.container .creat-page .creat-child:hover {
+   text-decoration: underline;
+}
+.footer {
+  overflow-x: hidden;
+}
+.footer .footer-content a {
+   color: #8a8d91;
+   text-decoration: none;
+   font-size: 12px;
+   padding: 0 6px;
+}
+.footer .footer-content a:hover{
+    text-decoration: underline;
 }
